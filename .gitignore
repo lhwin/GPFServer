@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+env/
+miniconda3/
+
+# Data and outputs (large, generated)
+data/output/
+data/satelite/
+data/oceantide/
+output/
+output_local_test/
+*.nc
+*.h5
+*.parquet
+*.npz
+
+# Fonts and binaries
+config/SimHei.ttf
+*.ttf
+*.woff
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+__pycache__/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

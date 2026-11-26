@@ -1,7 +1,7 @@
 import requests
 import json
 
-base_url = "http://127.0.0.1:8000"
+base_url = "http://192.168.240.13:8000"
 
 item_data = {
     "Sat_ID": "JA3",

@@ -12,6 +12,7 @@ from DataOp.explorer import LocalDataExplorer
 
 from fastapi import FastAPI
 from config import *
+import uvicorn
 app = FastAPI()
 
 @app.post("/data/discover")
@@ -48,3 +49,6 @@ def get_item(item: OceanTideItem):
 @app.post("/oceantide/cal")
 def get_item(item: OceanTideItem):
     return func_ycz_cal_pro(item)
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0")
